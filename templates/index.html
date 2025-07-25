@@ -1,0 +1,33 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Generator</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <script src="static/script.js" defer></script>
+</head>
+<body>
+    <h1>Email Generator</h1>
+    <br><br>
+    <div id="complete1">
+        <label for="topic">Enter topic:</label>
+        <input type="text" id="topic" name="topic" required>
+        <button class="button" id="generateButton">Generate Email</button>
+        <br> <br>
+        <div id="toggleText">Generate from gemini</div>
+        <label class="switch">
+            <input type="checkbox" id="toggleButton">
+            <span class="slider round"></span>
+        </label>
+        <div id="toggleText">Generate from Database</div>
+    </div>
+    <br><br>
+    <textarea id="emailContent" rows="10" cols="50" readonly></textarea><br>
+    <div id="complete2">
+    <button class="button" id="copyButton">Copy to Clipboard</button>
+    <button class="button" id="clearButton">Clear All</button>
+    </div>
+</body>
+</html>

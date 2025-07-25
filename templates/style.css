@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+}
+.container:hover{
+    background-color: #b0aeae;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    transition: 0.5s;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+h1:hover{
+    color:blue;
+    transform: matrix(1.2, 0, 0, 1.2,0,0);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.button {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.5s;
+}
+
+.buttons button:hover {
+    background-color: #0056b3;
+    transform: matrix(1.2, 0, 0, 1.2,0,0);
+}
+
+.generatedMail {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    word-wrap: break-word;
+    
+}
+#result{
+    height: 250px;
+    width: 550px;
+}
+/* toggle button */
+
+
+.toggle-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    z-index: 999;
+}
+
+.toggle-btn:hover {
+    background-color: #0056b3;
+}
